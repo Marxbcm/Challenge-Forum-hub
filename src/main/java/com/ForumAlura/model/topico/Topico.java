@@ -32,7 +32,7 @@ public class Topico {
         this.titulo = dados.titulo();
         this.mensagem = dados.mensagem();
         this.data = data;
-        this.estado = Estado.Ativo;
+        this.estado = Estado.ATIVO;
         this.autor = dados.autor();
         this.curso = dados.curso();
     }
@@ -44,3 +44,4 @@ public class Topico {
         this.curso = dados.curso();
     }
 }
+
