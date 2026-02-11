@@ -1,9 +1,9 @@
 package com.ForumAlura.controller;
 
-import br.alura.forumAlura.model.usuario.DadosAutenticacao;
-import br.alura.forumAlura.model.usuario.DadosListagemUsuario;
-import br.alura.forumAlura.model.usuario.Usuario;
-import br.alura.forumAlura.repository.UsuarioRepository;
+import com.ForumAlura.model.usuario.DadosAutenticacao;
+import com.ForumAlura.model.usuario.DadosListagemUsuario;
+import com.ForumAlura.model.usuario.Usuario;
+import com.ForumAlura.repository.UsuarioRepository;
 import io.swagger.v3.oas.annotations.security.SecurityRequirement;
 import jakarta.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -43,4 +43,5 @@ public class UsuarioController {
     }
 
 }
+
 
