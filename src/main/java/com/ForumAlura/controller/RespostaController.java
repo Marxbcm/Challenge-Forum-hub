@@ -1,10 +1,10 @@
 package com.ForumAlura.controller;
 
-import com.forumAlura.model.resposta.DadosAddResposta;
-import com.forumAlura.model.resposta.DadosDetalhamentoResposta;
-import com.forumAlura.model.resposta.Resposta;
-import com.forumAlura.model.topico.DadosListagemTopico;
-import com.forumAlura.repository.RespostaRepository;
+import com.ForumAlura.model.resposta.DadosAddResposta;
+import com.ForumAlura.model.resposta.DadosDetalhamentoResposta;
+import com.ForumAlura.model.resposta.Resposta;
+import com.ForumAlura.model.topico.DadosListagemTopico;
+import com.ForumAlura.repository.RespostaRepository;
 import io.swagger.v3.oas.annotations.security.SecurityRequirement;
 import jakarta.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -47,5 +47,6 @@ public class RespostaController {
 
 
 }
+
 
 
