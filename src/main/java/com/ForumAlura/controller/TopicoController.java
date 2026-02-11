@@ -1,10 +1,10 @@
 package com.ForumAlura.controller;
 
-import br.alura.forumAlura.model.topico.DadosAddTopico;
-import br.alura.forumAlura.model.topico.DadosDetalhamentoTopico;
-import br.alura.forumAlura.model.topico.DadosListagemTopico;
-import br.alura.forumAlura.model.topico.Topico;
-import br.alura.forumAlura.repository.TopicoRepository;
+import com.forumAlura.model.topico.DadosAddTopico;
+import com.forumAlura.model.topico.DadosDetalhamentoTopico;
+import com.forumAlura.model.topico.DadosListagemTopico;
+import com.forumAlura.model.topico.Topico;
+import com.forumAlura.repository.TopicoRepository;
 import io.swagger.v3.oas.annotations.security.SecurityRequirement;
 import jakarta.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -95,4 +95,5 @@ public class TopicoController {
 
 
 }
+
 
