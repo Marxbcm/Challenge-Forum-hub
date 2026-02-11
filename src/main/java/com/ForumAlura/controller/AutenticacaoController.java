@@ -1,9 +1,9 @@
 package com.ForumAlura.controller;
 
-import br.alura.ForumAlura.model.usuario.DadosAutenticacao;
-import br.alura.ForumAlura.model.usuario.Usuario;
-import br.alura.ForumAlura.security.DadosTokenJWT;
-import br.alura.ForumAlura.security.TokenService;
+import com.ForumAlura.model.usuario.DadosAutenticacao;
+import com.ForumAlura.model.usuario.Usuario;
+import com.ForumAlura.security.DadosTokenJWT;
+import com.ForumAlura.security.TokenService;
 import jakarta.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
@@ -35,4 +35,5 @@ public class AutenticacaoController {
     }
 
 }
+
 
