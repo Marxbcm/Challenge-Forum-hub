@@ -1,6 +1,6 @@
 package com.ForumAlura.model.resposta;
 
-
+import com.ForumAlura.model.topico.Estado;
 import jakarta.persistence.*;
 import jakarta.validation.Valid;
 import lombok.AllArgsConstructor;
@@ -34,4 +34,5 @@ public class Resposta {
         this.topico = dados.topico();
         this.autor = dados.autor();
     }
+
 }
